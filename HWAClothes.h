@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface HWAClothes : NSObject
+
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *shortDescription;
+
+@property (strong, nonatomic) UIImage *clotheImage;
+
+- (id) initWithData: (NSDictionary *) data andImage: (UIImage *) image;
 
 @end
