@@ -234,8 +234,8 @@
                 
                 self.clothing = [self.orderedArray objectAtIndex: indexPath.row - 1];
                 
-                cell.textLabel.text = [[HWACondition clothingMap] objectAtIndex: 4][CLOTHE_NAME]; //Change to include all articles of clothing (look at Out of This World)
-                cell.detailTextLabel.text = [[HWACondition clothingMap] objectAtIndex: 4][CLOTHE_DESCR];
+                cell.textLabel.text = self.clothing[CLOTHE_NAME];
+                cell.detailTextLabel.text = self.clothing[CLOTHE_DESCR];
                 
                 NSString *imageName = [NSString stringWithFormat: @"%@", cell.textLabel.text];
                 cell.imageView.image = [UIImage imageNamed: imageName];

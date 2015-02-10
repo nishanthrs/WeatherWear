@@ -41,6 +41,7 @@
 		210B53761A8781C000B14E1B /* umbrella@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 210B53561A8781C000B14E1B /* umbrella@2x.png */; };
 		210B537C1A87866600B14E1B /* HWAClothes.m in Sources */ = {isa = PBXBuildFile; fileRef = 210B537B1A87866600B14E1B /* HWAClothes.m */; };
 		210B537E1A87B5BE00B14E1B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 210B537D1A87B5BE00B14E1B /* background.png */; };
+		21CF71521A88329F005B0657 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CF71511A88329F005B0657 /* Icon@2x.png */; };
 		21DF78411A84B96C00905F97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DF78401A84B96C00905F97 /* main.m */; };
 		21DF78441A84B96C00905F97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DF78431A84B96C00905F97 /* AppDelegate.m */; };
 		21DF78471A84B96C00905F97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DF78461A84B96C00905F97 /* ViewController.m */; };
@@ -130,6 +131,7 @@
 		210B537A1A87866600B14E1B /* HWAClothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWAClothes.h; path = ../HWAClothes.h; sourceTree = "<group>"; };
 		210B537B1A87866600B14E1B /* HWAClothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWAClothes.m; path = ../HWAClothes.m; sourceTree = "<group>"; };
 		210B537D1A87B5BE00B14E1B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		21CF71511A88329F005B0657 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		21DF783B1A84B96C00905F97 /* Hackathon Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackathon Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21DF783F1A84B96C00905F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21DF78401A84B96C00905F97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -294,6 +296,7 @@
 		21DF783E1A84B96C00905F97 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				21CF71511A88329F005B0657 /* Icon@2x.png */,
 				210B537D1A87B5BE00B14E1B /* background.png */,
 				210B53361A8781BF00B14E1B /* ClothesIcons */,
 				21FEDBD81A86CC8D00BB9873 /* Images */,
@@ -501,6 +504,7 @@
 				210B536E1A8781C000B14E1B /* sunglasses@2x.png in Resources */,
 				210B535A1A8781C000B14E1B /* boots@2x.png in Resources */,
 				210B536C1A8781C000B14E1B /* snowboots@2x.png in Resources */,
+				21CF71521A88329F005B0657 /* Icon@2x.png in Resources */,
 				21DF784C1A84B96C00905F97 /* Images.xcassets in Resources */,
 				210B536A1A8781C000B14E1B /* shorts@2x.png in Resources */,
 				210B53671A8781C000B14E1B /* shoes.png in Resources */,

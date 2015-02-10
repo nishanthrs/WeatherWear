@@ -28,6 +28,7 @@
     return self;
 }
 
+//Fetches JSON data from URL
 - (RACSignal *)fetchJSONFromURL:(NSURL *)url {
     NSLog(@"Fetching: %@",url.absoluteString);
     
@@ -102,6 +103,7 @@
 //    }];
 //}
 
+//Converts JSON data to conditions properties (using Mantle)
 - (RACSignal *) fetchCurrentConditionsForLocation:(CLLocationCoordinate2D)coordinate {
     //Format the url with latitude and longitude
     NSString *urlString = [NSString stringWithFormat: @"http://api.openweathermap.org/data/2.5/weather?lat=%f&lon=%f&units=imperial", coordinate.latitude, coordinate.longitude];
@@ -124,6 +126,7 @@
 //    }];
 //}
 
+//Converts JSON data to daily forecast properties (using Mantle)
 - (RACSignal *) fetchDailyForecastForLocation:(CLLocationCoordinate2D)coordinate {
     NSString *urlString = [NSString stringWithFormat: @"http://api.openweathermap.org/data/2.5/forecast/daily?lat=%f&lon=%f&units=imperial&cnt=7",coordinate.latitude, coordinate.longitude];
     NSURL *url = [NSURL URLWithString:urlString];
